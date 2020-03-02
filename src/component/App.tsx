@@ -4,7 +4,7 @@ import './App.scss';
 interface Props {}
 
 const App = ({}: Props) => {
-  return <h1>Hello World!</h1>;
+  return <h1>1024Files</h1>;
 };
 
 export default App;
