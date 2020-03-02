@@ -23,5 +23,6 @@
     "src/setupTests.ts",
     "./node_modules/**/*"
   ],
-  "include": ["./src/**/*", "@type"]
+  "include": ["./src/**/*", "@type"],
+  "files": ["custom.d.ts"]
 }
