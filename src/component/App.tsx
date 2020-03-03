@@ -1,10 +1,15 @@
-import React from 'react';
-import './App.scss';
+import React from 'react'
+import Header from './header'
+import './App.scss'
 
 interface Props {}
 
 const App = ({}: Props) => {
-  return <h1>1024Files</h1>;
-};
+  return (
+    <div className="app">
+      <Header />
+    </div>
+  )
+}
 
-export default App;
+export default App
